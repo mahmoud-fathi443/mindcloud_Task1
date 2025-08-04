@@ -15,10 +15,13 @@ int main(){
         sum += drink_percentage;
     }
 
+    if (n > 0) {
+        cocktail_perc = sum / n;
+        cout << cocktail_perc << endl;
+    }
     
-    cocktail_perc = sum / n;
     
-    cout << cocktail_perc << endl;
+    
     
 
     return 0;
