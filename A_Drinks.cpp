@@ -7,7 +7,7 @@ int main(){
     int n;
     double sum = 0, cocktail_perc;
     
-    
+
     cin >> n;
     for(int i = 0; i < n; i++){
         int drink_percentage;
@@ -20,9 +20,5 @@ int main(){
         cout << cocktail_perc << endl;
     }
     
-    
-    
-    
-
     return 0;
 }
