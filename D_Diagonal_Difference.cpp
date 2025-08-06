@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int  diagonalDifference(vector<vector<int>> arr){
+int  diagonalDifference(vector<vector<int>> &arr){
     int primary_diagonal = 0;
     int secondary_diagonal = 0;
     int abs_diff;
@@ -14,7 +14,7 @@ int  diagonalDifference(vector<vector<int>> arr){
             if(i == j) primary_diagonal+= arr[i][j];
             if((i+j) == (arr.size() - 1)) secondary_diagonal+= arr[i][j];
         }
-        cout << "\n";
+        
     }
 
     abs_diff = abs(primary_diagonal - secondary_diagonal);
